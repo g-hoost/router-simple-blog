@@ -70,7 +70,7 @@ a {
   flex-wrap: wrap;
   width: 320px;
   height: 214px;
-  margin: 7rem 2rem;
+  margin: 0 2rem 12rem 2rem;
 }
 .titles h3 {
   display: flex;
