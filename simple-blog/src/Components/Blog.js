@@ -7,7 +7,8 @@ const Details = () =>
     return (
 
         <div className="blogContent">
-            <Blogcard data={Blogdata}></Blogcard>
+            <Blogcard data={Blogdata}>
+            </Blogcard>
         </div >
     );
 }

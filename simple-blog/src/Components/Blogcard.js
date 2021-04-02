@@ -8,7 +8,7 @@ const Blogcard = (props) =>
             {props.data.map((item, index) =>
             (
                 <div key={index} className="titles">
-                    <img src={item.img_url} alt="keyboard"></img>
+                    <img src={item.img_url} alt=""></img>
                     <h3>{item.title}</h3>
                     <Link to="/content"><button>Read More!</button></Link>
 
