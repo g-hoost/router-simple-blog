@@ -19,10 +19,13 @@ header h1 {
   margin-left: 20rem;
   width: 15rem;
   margin-top: 6rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 .home button {
   margin-left: 20rem;
+}
+.home button,
+.titles button {
   width: 6rem;
   height: 2rem;
   color: #219653;
@@ -49,16 +52,37 @@ a {
   text-decoration: none;
   align-items: center;
   color: #0D4625;
-  font-size: bold;
+  font-weight: bold;
 }
 /* blog */
 
 .myLife {
   display: flex;
-  padding-top: 5rem;
+  flex-wrap: wrap;
+  padding-top: 15rem;
+}
+.blogContent {
+  display: flex;
+  width: 1200px;
 }
 .titles {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 320px;
+  height: 214px;
+  margin: 7rem 2rem;
+}
+.titles h3 {
+  display: flex;
+  width: 100%;
+  color: #0D4625;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  padding-bottom: 1rem;
+}
+.titles img {
+  width: 320px;
+  height: 214px;
+  border-radius: 10px;
 }
