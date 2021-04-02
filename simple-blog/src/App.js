@@ -10,6 +10,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
+import Content from "./Components/Content";
 
 export default function App()
 {
@@ -23,6 +24,7 @@ export default function App()
           <Route exact path="/"><Home /></Route>
           <Route path="/blog"><Blog /></Route>
           <Route path="/contact"><Contact /></Route>
+          <Route path="/content"><Content /></Route>
 
         </Switch>
       </div>

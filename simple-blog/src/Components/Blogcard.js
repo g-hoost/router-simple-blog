@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Blogcard = (props) =>
 {
     return (
@@ -8,7 +10,7 @@ const Blogcard = (props) =>
                 <div key={index} className="titles">
                     <img src={item.img_url} alt="keyboard"></img>
                     <h3>{item.title}</h3>
-                    <button>Read More!</button>
+                    <Link to="/content"><button>Read More!</button></Link>
 
                 </div>
             ))}

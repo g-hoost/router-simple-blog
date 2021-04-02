@@ -1,4 +1,4 @@
-const BlogContent = (props) =>
+const Content = (props) =>
 {
     return (
 
@@ -21,4 +21,4 @@ const BlogContent = (props) =>
     );
 }
 
-export default BlogContent;
+export default Content;

@@ -2,7 +2,7 @@ import Blogcard from "./Blogcard";
 import Blogdata from "./Blogdata";
 
 
-const Blog = () =>
+const Details = () =>
 {
     return (
 
@@ -12,4 +12,4 @@ const Blog = () =>
     );
 }
 
-export default Blog;
+export default Details;
