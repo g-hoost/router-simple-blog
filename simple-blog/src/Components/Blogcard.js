@@ -10,7 +10,7 @@ const Blogcard = (props) =>
                 <div key={index} className="titles">
                     <img src={item.img_url} alt=""></img>
                     <h3>{item.title}</h3>
-                    <Link to="/content"><button>Read More!</button></Link>
+                    <Link to="/:id/blog"><button>Read More!</button></Link>
 
                 </div>
             ))}
