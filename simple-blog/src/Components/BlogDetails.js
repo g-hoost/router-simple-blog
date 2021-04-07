@@ -19,6 +19,7 @@ const BlogDetails = (props) =>
                 <h3>{props.data[id].title}</h3>
 
 
+
             </div>
 
         </section>
