@@ -26,7 +26,7 @@ export default function App()
 
           <Route exact path="/"><Home /></Route>
           <Route path="/blog"><Blog /></Route>
-          <Route path="/blog/:id"><BlogDetails data={Blogdata} /></Route>
+          <Route path="/:id/blog"><BlogDetails data={Blogdata} /></Route>
           <Route path="/contact"><Contact /></Route>
 
 
