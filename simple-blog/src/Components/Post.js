@@ -6,7 +6,7 @@ import
 } from "react-router-dom";
 
 
-const BlogDetails = (props) =>
+const Post = (props) =>
 {
     const { id } = useParams();
     return (
@@ -15,9 +15,9 @@ const BlogDetails = (props) =>
             <Link className="linkback" to="/blog"><button>back</button></Link>
 
             <div key={id} className="details">
-                <img src={props.data[id].img_url} alt={props.data[id].title}></img>
-                <h3>{props.data[id].title}</h3>
-
+                <img className="contentImg" src={props.data[id].img_url} alt={props.data[id].title}></img>
+                <h3 className="contentHeader">{props.data[id].title}</h3>
+                <p className="contentDate">{props.data[id].published_date}</p>
 
 
             </div>
@@ -27,4 +27,4 @@ const BlogDetails = (props) =>
     );
 }
 
-export default BlogDetails;
+export default Post;
