@@ -12,7 +12,7 @@ import Home from "./Components/Home";
 import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
 import BlogDetails from "./Components/BlogDetails";
-
+import Blogdata from "./Components/Blogdata";
 
 
 export default function App()
@@ -26,7 +26,7 @@ export default function App()
 
           <Route exact path="/"><Home /></Route>
           <Route path="/blog"><Blog /></Route>
-          <Route path="/:id/blog"><BlogDetails /></Route>
+          <Route path="/:id/blog"><BlogDetails data={Blogdata} /></Route>
           <Route path="/contact"><Contact /></Route>
 
 
