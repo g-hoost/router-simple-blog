@@ -5,7 +5,7 @@ const Contact = (props) =>
         <div className="contactContainer">
             <h3>Contact</h3>
             <p>Contact me, contact you.. ahaa, there is nothing we can do...</p>
-            <form>
+            <form onSubmit={this.handle.submit.bind(this)}>
                 <input type="text" value="Name" placeholder="Name"></input>
                 <input type="email" value="Email"></input>
                 <input type="text" value="Phone"></input>
