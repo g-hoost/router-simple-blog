@@ -56,14 +56,20 @@ a {
 }
 /* blog */
 
+
+/* post */
 .myLife {
   display: flex;
   flex-wrap: wrap;
+  width: 1200px;
   padding-top: 15rem;
+  margin: 0 auto;
 }
 .blogContent {
   display: flex;
-  width: 1200px;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: 0 10%;
 }
 .titles {
   display: flex;
@@ -85,4 +91,50 @@ a {
   width: 320px;
   height: 214px;
   border-radius: 10px;
+}
+
+
+.details {
+  padding-top: 10rem;
+  width: 100vw;
+  margin: 0 auto;
+}
+.contentImgContainer {
+  width: 100vw;
+  display: flex;
+}
+.contentImg {
+  margin: 0 auto;
+  width: 1210px;
+  height: 600px;
+  border-radius: 10px;
+}
+.linkback { 
+  margin-left: 12%;
+  color: #0D4625;
+}
+.linkback::before {
+  content: "<";
+}
+.headerTitleDate,
+.description,
+.author {
+  width: 60vw;
+  margin: 0 23rem;
+  color: #0D4625;
+}
+.date {
+  float: right;
+}
+.headerTitleDate {
+  display: flex;
+  justify-content: space-between;
+}
+.headerTitleDate h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.date,
+.author {
+  font-weight: bold;
 }
