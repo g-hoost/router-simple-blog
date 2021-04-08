@@ -17,7 +17,8 @@ const Post = (props) =>
             <div key={id} className="details">
                 <img className="contentImg" src={props.data[id].img_url} alt={props.data[id].title}></img>
                 <h3 className="contentHeader">{props.data[id].title}</h3>
-                <p className="contentDate">{props.data[id].published_date}</p>
+                <div className="author">by {props.data[id].author}</div>
+                <p className="description">{props.data[id].description}</p>
 
 
             </div>
