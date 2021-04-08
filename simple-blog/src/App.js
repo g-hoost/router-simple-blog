@@ -29,8 +29,6 @@ export default function App()
           <Route path="/:id/blog"><Post data={Blogdata} /></Route>
           <Route path="/contact"><Contact /></Route>
 
-
-
         </Switch>
       </div>
     </Router >
